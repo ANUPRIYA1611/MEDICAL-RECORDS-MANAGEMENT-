@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+  }
+  .homebody {
+	margin: 0px;
+	font-family: 'segoe ui';
+  }
+  .nav {
+	height: 50px;
+	width: 100%;
+	background-color:#efefef;
+	position: relative;
+  }
+  .nav > .nav-header > .nav-title {
+	display: inline-block;
+	font-size: 22px;
+	color: #080808;
+	padding: 10px 10px 10px 10px;
+  } 
+  .nav > .nav-btn {
+	display: none;
+  }
+  .nav > .nav-links {
+	display: inline;
+	float: right;
+	font-size: 18px;
+  }
+  .nav > .nav-links > a {
+	display: inline-block;
+	padding: 15px 12px 15px 12px;
+	text-decoration: none;
+	color: #0e0d0d;
+    font-style: bold;
+  }
+  
+  .nav > .nav-links > a:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+	display: none;
+  }
+  .sidebar {
+	margin: 0; 
+	padding: 0; 
+	width: 200px;
+	 background-color: #f1f1f1; 
+	 position: fixed;
+	 height: 100%;
+	 overflow: auto;
+	  }
+	  .sidebar a {
+		display: block; 
+		color: black;
+		padding: 16px;
+		text-decoration: none;
+		}.sidebar a.active {
+			background-color: #04AA6D; 
+			color: white;
+			}
+			.sidebar a:hover:not(.active) {
+			background-color: #555; 
+			color: white;
+			}
+			div.content {
+			margin-left: 200px; 
+			padding: 1px 16px;
+			 height: 1000px;
+			}
+			@media screen and (max-width: 700px) {
+			.sidebar {
+			width: 100%;
+			 height: auto;
+			 position: relative;
+			}
+			.sidebar a {float: left;}
+			div.content {margin-left: 0;}
+			}
+			 @media screen and (max-width: 400px) {
+			.sidebar a {
+			text-align: center; 
+			float: none;
+			}
+			}

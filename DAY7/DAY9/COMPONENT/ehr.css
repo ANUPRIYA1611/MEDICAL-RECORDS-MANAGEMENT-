@@ -1,0 +1,66 @@
+.ehrmain{
+    width: 1180px;
+	height:600px;
+	position: fixed;
+	top: 9%;
+	left:6%;
+	background-color: #e4e4e4;
+	border-radius: 20px;
+}
+.ehrh{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+	margin-top: 58px;
+}
+.ehrhistory{
+    width: 360px;
+	height:450px;
+	position: fixed;
+	top: 23%;
+	left: 9%;
+	background-color: #cac3c3;
+	border-radius: 20px;
+}
+.ehrplans{
+    width: 360px;
+	height:450px;
+	position: fixed;
+	top: 23%;
+	left: 38%;
+	background-color:#cac3c3;
+	border-radius: 20px;
+}
+.ehrresults{
+    width: 360px;
+	height:450px;
+	position: fixed;
+	top: 23%;
+	left: 67%;
+	background-color: #cac3c3;
+	border-radius: 20px;
+}
+.ehrplans:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.ehrresults:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+.ehrhistory:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+.ehrname{
+    font-size: 22px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul{
+	font-size: 25px;
+	list-style-type: none;
+	
+}

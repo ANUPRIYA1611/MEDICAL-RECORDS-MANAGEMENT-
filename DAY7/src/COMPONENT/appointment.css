@@ -1,0 +1,32 @@
+.appcard{
+    width: 900px;
+	height:1100px;
+	position: relative;
+	top: 5%;
+	left:12%;
+    background-color: #e4e4e4;
+	border-radius: 20px;
+}
+.apph1{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.apph2{
+    font-size: 18px;
+    margin-left: 50px;
+}
+.apphistory{
+    width:650px;
+    height:450px;
+    position:relative;
+    left:15%;
+    top:80%;
+    background-color: grey;
+}
+.linkh1{
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 20px;
+    margin-left: 155px;
+}

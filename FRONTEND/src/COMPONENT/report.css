@@ -1,0 +1,67 @@
+.reportcard1{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 320px;
+	height:300px;
+	position: fixed;
+	top: 30%;
+	left: 3%;
+    background-color: #e4e4e4;
+	border-radius: 10px;
+	display:flex;
+}
+.reportcard2{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 320px;
+	height:300px;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+    background-color: #e4e4e4;
+	border-radius: 10px;
+	display:flex;
+}
+.reportcard3{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 320px;
+	height:300px;
+	position: fixed;
+	top: 30%;
+	left: 57%;
+    background-color: #e4e4e4;
+	border-radius: 10px;
+	display:flex;
+}
+.reporth1{
+    font-size: 25px;
+}
+.reportp{
+	font-size: 29px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.reportcard1:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.reportcard2:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+.reportcard3:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+.report-item{
+	font-size: 29px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rimg{
+	width:10%;
+	height:20%;
+	margin-left: 1100px;
+	margin-top: 10px;
+}
